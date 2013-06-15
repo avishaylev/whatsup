@@ -1,6 +1,6 @@
 <?php
 
-namespace whatsup\config\appCredentials;
+namespace WhatsUp\config\appCredentials;
 
 define('CLIENT_ID', 'PZOKL3K1RW220ETOJMJEA5Q0S20GFJ1XGLJH5MZGOEDGJ2RA');
 

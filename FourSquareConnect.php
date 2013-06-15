@@ -1,6 +1,6 @@
 <?php
 
-namespace \WhatsUp\FourSquareConnect;
+namespace WhatsUp\FourSquareConnect;
 
 /**
  * Provides base functions and attributes for most other classes
@@ -12,15 +12,10 @@ namespace \WhatsUp\FourSquareConnect;
 interface FourSquareConnect
 {
 
-  protected function setURL() {
+  public function setURL($task);
 
-  }
+  public function request($options);
 
-  protected function request() {
-    
-  }
+  public function setResponse($raw_result);
 
-  protected function setReponse() {
-    
-  }
 } // END interface FourSquareConnect

@@ -13,6 +13,7 @@ local.properties
 .settings/
 .loadpath
 .idea
+test.php
 
 # External tool builders
 .externalToolBuilders/
